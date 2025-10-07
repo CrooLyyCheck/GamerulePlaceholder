@@ -15,13 +15,15 @@ Ensure PlaceholderAPI is installed and enabled.
 
 Restart the server; the expansion registers automatically at startup.
 
-# Placeholders
+# Placeholders per world scheme
 ```%gamerule_<rule>_<world>%```
 
 Returns the value of gamerule <rule> in world <world>.
 
 Example: ```%gamerule_keepInventory_world%``` → “true” or “false”.
 
+
+# Placeholders cheme for current world
 ```%gamerule_currentworld_<rule>%```
 
 Returns the gamerule value from the requesting player’s current world.
