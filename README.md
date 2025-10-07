@@ -32,7 +32,7 @@ Requires player context (e.g., scoreboards, chat, GUIs that resolve placeholders
 
 Example: ```%gamerule_currentworld_doDaylightCycle%```
 
-# Notes:
+# Notes
 
 <rule> must match the exact gamerule name as in the server version (e.g., keepInventory, doDaylightCycle, playersSleepingPercentage).
 
