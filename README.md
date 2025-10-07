@@ -16,19 +16,19 @@ Ensure PlaceholderAPI is installed and enabled.
 Restart the server; the expansion registers automatically at startup.
 
 # Placeholders
-%gamerule_<rule>_<world>%
+```%gamerule_<rule>_<world>%```
 
 Returns the value of gamerule <rule> in world <world>.
 
-Example: %gamerule_keepInventory_world% → “true” or “false”.
+Example: ```%gamerule_keepInventory_world%``` → “true” or “false”.
 
-%gamerule_currentworld_<rule>%
+```%gamerule_currentworld_<rule>%```
 
 Returns the gamerule value from the requesting player’s current world.
 
 Requires player context (e.g., scoreboards, chat, GUIs that resolve placeholders for a player).
 
-Example: %gamerule_currentworld_doDaylightCycle%.
+Example: ```%gamerule_currentworld_doDaylightCycle%```
 
 Notes:
 
@@ -39,9 +39,9 @@ If the world or gamerule doesn’t exist, the placeholder returns an empty strin
 Boolean/Integer gamerules are returned as plain text (e.g., “true”, “100”).
 
 # Usage Examples
-Scoreboard: Show whether players keep inventory in the overworld: %gamerule_keepInventory_world%.
+Scoreboard: Show whether players keep inventory in the overworld: ```%gamerule_keepInventory_world%```
 
-Player context: Show if day/night cycle runs in the player’s current dimension: %gamerule_currentworld_doDaylightCycle%.
+Player context: Show if day/night cycle runs in the player’s current dimension: ```%gamerule_currentworld_doDaylightCycle%```
 
 # Performance
 The plugin only reads values via the Paper API and performs no I/O, loops, or async tasks. Overhead is negligible even when placeholders update frequently (e.g., in scoreboards).
