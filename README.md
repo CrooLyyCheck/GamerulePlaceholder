@@ -23,7 +23,7 @@ Returns the value of gamerule <rule> in world <world>.
 Example: ```%gamerule_keepInventory_world%``` → “true” or “false”.
 
 
-# Placeholders cheme for current world
+# Placeholders scheme for current world
 ```%gamerule_currentworld_<rule>%```
 
 Returns the gamerule value from the requesting player’s current world.
