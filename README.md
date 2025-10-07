@@ -22,13 +22,13 @@ Returns the value of gamerule <rule> in world <world>.
 
 Example: %gamerule_keepInventory_world% → “true” or “false”.
 
-%gamerulecurrentworld_<rule>%
+%gamerule_currentworld_<rule>%
 
 Returns the gamerule value from the requesting player’s current world.
 
 Requires player context (e.g., scoreboards, chat, GUIs that resolve placeholders for a player).
 
-Example: %gamerulecurrentworld_doDaylightCycle%.
+Example: %gamerule_currentworld_doDaylightCycle%.
 
 Notes:
 
@@ -41,7 +41,7 @@ Boolean/Integer gamerules are returned as plain text (e.g., “true”, “100�
 # Usage Examples
 Scoreboard: Show whether players keep inventory in the overworld: %gamerule_keepInventory_world%.
 
-Player context: Show if day/night cycle runs in the player’s current dimension: %gamerulecurrentworld_doDaylightCycle%.
+Player context: Show if day/night cycle runs in the player’s current dimension: %gamerule_currentworld_doDaylightCycle%.
 
 # Performance
 The plugin only reads values via the Paper API and performs no I/O, loops, or async tasks. Overhead is negligible even when placeholders update frequently (e.g., in scoreboards).
