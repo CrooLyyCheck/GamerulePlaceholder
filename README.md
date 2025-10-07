@@ -58,7 +58,7 @@ The plugin JAR will be produced in target/ and can be copied to plugins/.
 Paper API and PlaceholderAPI are declared with provided scope; they must exist as plugins on the server.
 
 # Troubleshooting
-Plugin loads but placeholders are empty: verify the world name and gamerule spelling; ensure a player context exists for gamerulecurrentworld_.
+Plugin loads but placeholders are empty: verify the world name and gamerule spelling; ensure a player context exists for gamerule_currentworld_.
 Java version errors: use Java 21 for Paper 1.21.x.
 
 # Credits
