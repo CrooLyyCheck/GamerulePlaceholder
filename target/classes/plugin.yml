@@ -1,7 +1,0 @@
-name: GamerulePlaceholder
-main: pl.croolyy.gameruleplaceholder.GamerulePlaceholderPlugin
-version: 1.0.0
-api-version: '1.21'
-author: CrooLyyCheck
-softdepend: [PlaceholderAPI]
-description: Provides %gamerule_<rule>_<world>% and %gamerulecurrentworld_<rule>% placeholders via PlaceholderAPI.
